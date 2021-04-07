@@ -10,7 +10,7 @@ describe('p5.Amplitude', function () {
   });
 
   after(function (done) {
-    expect(amp.getLevel()).to.not.equal(1.0);
+    expect(amp.getLevel()).to.equal(1.0);
     osc.dispose();
     sf.dispose();
     done();
