@@ -3,5 +3,5 @@ node_js:
   - "8"
   - "10"
 install: for i in {1..3}; do travis_wait 5 npm install && break; rm -rf node_modules; done
-script: npm run build; npm run test
+script: npm run build;  npm run test
 sudo: false
