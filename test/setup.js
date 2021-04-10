@@ -17,7 +17,7 @@ const startTest = () => {
       test_has_run = true;
     }
   };
-  document.addEventListener('click', mousePressed, false);
+  document.addEventListener('load', mousePressed, false);
 };
 
 //operating p5 in instance mode ( read more about it here -  https://github.com/processing/p5.js/wiki/Global-and-instance-mode )
