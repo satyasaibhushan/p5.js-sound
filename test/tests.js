@@ -14,4 +14,5 @@
 // import('./tests/p5.SoundFile.js');
 // import('./tests/p5.Amplitude.js');
 // import('./tests/p5.Oscillator.js');
-import('./tests/p5.AudioContext.js');
+// import('./tests/p5.AudioContext.js');
+import('./tests/p5.Delay.js')
